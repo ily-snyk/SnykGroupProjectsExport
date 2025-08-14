@@ -17,5 +17,31 @@ It uses the [Snyk REST API](https://apidocs.snyk.io/) and supports pagination to
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/<your-org>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/ily-snyk/SnykGroupProjectsExport.git
+   cd SnykGroupProjectsExport
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+ 3. **Configuration:**
+Set the required environment variables before running the script:
+   ```bash
+export SNYK_API_TOKEN="your_snyk_api_token"
+export SNYK_GROUP_ID="your_snyk_group_id"
+
+ 4. **Usage:**
+Run the script with:
+   ```bash
+python snyk_orgs_projects.py
+
+📄 Output
+
+The script creates a CSV file in the current directory:
+snyk_orgs_projects.csv
+
+Columns:
+* Organization ID
+* Organization Name
+* Project ID
+* Project Name
