@@ -38,6 +38,7 @@ Run the script with:
 5. **Output:**
 The script creates a CSV file in the current directory:
 snyk_orgs_projects.csv
+
 Columns:
 * Organization ID
 * Organization Name
