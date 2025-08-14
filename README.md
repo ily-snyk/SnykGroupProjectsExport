@@ -24,18 +24,18 @@ It uses the [Snyk REST API](https://apidocs.snyk.io/) and supports pagination to
    ```bash
    pip install -r requirements.txt
 
- 3. **Configuration:**
+3. **Configuration:**
 Set the required environment variables before running the script:
    ```bash
 export SNYK_API_TOKEN="your_snyk_api_token"
 export SNYK_GROUP_ID="your_snyk_group_id"
 
- 4. **Usage:**
+4. **Usage:**
 Run the script with:
    ```bash
 python snyk_orgs_projects.py
 
-📄 Output
+5. **Usage:**
 
 The script creates a CSV file in the current directory:
 snyk_orgs_projects.csv
